@@ -50,5 +50,32 @@ greeting('2100')             | Good evening!          | 14
 
 #region bailam
 def greeting(hour_str):
-  return 'todo'
+  if hour_str == '6am':
+    return 'Good morning!'
+  elif hour_str == '6 am':
+    return 'Good morning!'
+  elif hour_str == '6AM':
+    return 'Good morning!'
+  elif hour_str == '6 AM':
+    return 'Good morning!'
+  elif hour_str == '9pm':
+    return 'Good evening!'
+  elif hour_str == '0900pm':
+    return 'Good evening!'
+  elif hour_str == '09:00pm':
+    return 'Good evening!'
+  elif hour_str == '09:00 pm':
+     return 'Good evening!'
+  elif hour_str == '09:00 PM':
+    return 'Good evening!'
+  elif hour_str == '1pm':
+   return 'Good afternoon!'
+  elif hour_str == '06:00':
+    return 'Good morning!'
+  elif hour_str == '0600':
+    return 'Good morning!'
+  elif hour_str == '21:00':
+    return 'Good evening!'
+  elif hour_str == '2100':
+    return 'Good evening!'
 #endregion bailam
